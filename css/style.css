@@ -1,0 +1,31 @@
+body{
+    background-color: #4361EE;
+}
+
+
+#about{
+    color: #FFFFFF;
+    background-color: #3A0CA3;
+    border-style: solid;
+    border-color: #000000;
+}
+
+#content{
+    background-color: white;
+    border-style: solid;
+    border-color: #000000;
+}
+
+footer{
+    background-color: #7209B7;
+}
+
+a{
+    color: #373737;
+    text-decoration: none;
+}
+
+.container{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
