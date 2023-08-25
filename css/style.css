@@ -1,3 +1,46 @@
+
+header{
+    background-color: #4361EE;
+    text-align: center;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-container{
+    background-color: #4CC9F0;
+}
+
+#page{
+    background-color: #4361EE;
+}
+
+#poll{
+    padding: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: left;
+}
+
+.sidebar{
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){ 
+    .sidebar{
+        text-align: right;
+    }
+
+    .sidead, #poll{
+        position: sticky;
+        top: 15%;
+    }
+
+}
+
 body{
     background-color: #4361EE;
 }
@@ -12,9 +55,8 @@ body{
 
 #content{
     background-color: white;
-    border-style: solid;
-    border-color: #000000;
 }
+
 
 footer{
     background-color: #7209B7;
@@ -25,7 +67,39 @@ a{
     text-decoration: none;
 }
 
+.text-box{
+    padding:3%;
+}
+
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
+
 .container{
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+div{
+    border-radius: 5px;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.logo{
+    height: 50px;
+    filter: grayscale();
+}
+
+.lyrics{
+    font-style: italic;
+    padding: 2%;
+    text-align: center;
+}
+
+.sheet-music {
+    margin: 2%;
+    box-shadow: 2px 2px grey;
 }
