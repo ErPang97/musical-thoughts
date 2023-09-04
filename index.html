@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
+    <!-- Bootstrap Library -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
         rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
         crossorigin="anonymous">
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <!-- External Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div id="page">
@@ -39,9 +42,9 @@
 
         <div class="container text-center">
             <div class="row">
-                <img class="col-md-8" src="img/piano-1655558_1920.jpg" alt="Piano and Sheet Music">
-                <div id="about" class="col-md-4 text-box" 
-                style="font-family: Arial, Helvetica, sans-serif;">
+                <img class="col-lg-8" src="img/piano-1655558_1920.jpg" alt="Piano and Sheet Music"
+                style="padding: 0%;">
+                <div id="about" class="col-lg-4 text-box">
                     <h2>About</h2>
                     <p>
                         Welcome to this somewhat personal blog. I am by no means an expert on music, however I do have a background,
@@ -60,7 +63,7 @@
         <div class="container text-center">
             <div class="container" id="content">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <div class = "row">
                             <h2 id="latest-articles">Latest</h2>
                             <div class="col-sm text-box">
@@ -106,8 +109,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <form id="poll">
+                    <div class="col-lg-4">
+                        <!-- <form id="poll">
                             <h4>Vote For What Song I Should Analyze Next!</h4>
                             <input type="radio" name="color" value="Sodagreen">Sodagreen - 你被寫在我的歌裡<br>
                             <input type="radio" name="color" value="deadmau5">deadmau5, Lights - drama free<br>
@@ -115,7 +118,9 @@
                             <input type="radio" name="color" value="Pomme">Pomme - je sais pas danser<br>
                             <input type="radio" name="color" value="Juanes">Juanes - Mis Planes Son Amarte<br>
                             <input type="submit" value="Submit">
-                        </form>
+                        </form> -->
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY2MWmuutccqUx3Sz7wvP6MNLz4ompbdZymIq7FhB9DU42eg/viewform?embedded=true" 
+                        height="500px" style="margin-top: 15%;" >Loading…</iframe>
                     </div>
                 </div>
             </div>
@@ -124,10 +129,14 @@
         <footer>
             <div class="container">
                 <h2>Socials</h2>
-                <img class="logo" src="img\logos\Twitter_Logo.png">
+                <!-- Logos -->
+                <a href="https://www.facebook.com" class="fa fa-facebook logo"></a>
+                <a href="https://www.twitter.com" class="fa fa-twitter logo"></a>
+                <a href="https://www.youtube.com/@RyPangi5/" class="fa fa-youtube logo"></a>
+                <a href="https://www.instagram.com/rpangmusic/" class="fa fa-instagram logo"></a>
+                <!-- <img class="logo" src="img\logos\Twitter_Logo.png">
                 <img class="logo" src="img\logos\yt_logo_rgb_light.png">
-                <img class="logo" src="img\logos\ig_glyph-logo_May2016-310x310.png">
-                <div>Search Bar</div>
+                <img class="logo" src="img\logos\ig_glyph-logo_May2016-310x310.png"> -->
             </div>
         </footer>
 

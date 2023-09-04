@@ -49,8 +49,7 @@ body{
 #about{
     color: #FFFFFF;
     background-color: #3A0CA3;
-    border-style: solid;
-    border-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #content{
@@ -85,12 +84,23 @@ div{
 }
 
 img{
-    border-radius: 5px;
+    /* border-radius: 5px; */
+}
+
+
+.fa{
+    background-color: rgb(128, 128, 128);
+    padding: 15px;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 25%;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .logo{
-    height: 50px;
-    filter: grayscale();
+    font-size: 19px !important;
 }
 
 .lyrics{
