@@ -85,6 +85,11 @@ div{
 }
 
 
+#sources{
+    text-align: left;
+}
+
+
 .fa{
     background-color: rgb(2, 2, 95);
     color: white;
