@@ -10,6 +10,21 @@ header{
     width: 100%;
 }
 
+#separator {
+    background-color: gray;
+    border-radius: 0%;
+}
+
+#article-head{
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.article-body{
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+}
+
 .nav-container{
     background-color: #4CC9F0;
 }
@@ -115,4 +130,19 @@ div{
 .sheet-music {
     margin: 2%;
     box-shadow: 2px 2px grey;
+}
+
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+/* The progress bar (scroll indicator) */
+.progress-bar {
+height: 8px;
+background: #22842a;
+width: 0%;
 }
