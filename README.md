@@ -19,3 +19,7 @@ Updates on 1/30/24:
 
 Updates on 3/20/24:
 - Adjusted the README file for better formatting
+
+Updates on 8/30/24:
+- Used the JS file to load in header and footer for the articles
+- Changed the README to README.md for presentability on GitHub
