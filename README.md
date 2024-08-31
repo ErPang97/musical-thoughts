@@ -5,8 +5,9 @@ Web Design for Everybody Specialization from University of Michigan on Coursera.
 - I developed this website in order to share my own thoughts about music that I like, 
 and to practice my own music theory chops!
 - Absolutely would appreciate any feedback on improving the articles content, and the website
-design itself.
-- The main technologies used were Boostrap, HTML/CSS and JavaScript.
+design itself. As this is a work in progress, while I improve my UI skills.
+- The main technologies used were HTML/CSS and JavaScript.
+- The Bootstrap CSS Framework is used.
 
 ### Todo:
 - Fixing the progress bar formatting on the article pages.
